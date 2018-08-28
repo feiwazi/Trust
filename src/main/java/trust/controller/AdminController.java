@@ -14,12 +14,10 @@ import trust.pojo.BasePojo;
 import trust.pojo.Illness;
 import trust.pojo.entity.IllnessEntity;
 import trust.service.*;
-import trust.util.ControllerTool;
-import trust.util.ImageTool;
-import trust.util.StringTool;
-import trust.util.TimeTool;
+import trust.util.*;
 
 import javax.imageio.ImageIO;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -93,7 +91,7 @@ public class AdminController {
      * @param password
      * @return
      */
-/*    @RequestMapping(value = "image.png", method = RequestMethod.GET)
+    @RequestMapping(value = "image.png", method = RequestMethod.GET)
     public void image(HttpServletResponse response, String key, String password){
         try {
             byte [] keyc=ByteTool.getCiphertext(key);
@@ -107,7 +105,7 @@ public class AdminController {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }*/
+    }
     /**
      * 初始化页面
      * @param model

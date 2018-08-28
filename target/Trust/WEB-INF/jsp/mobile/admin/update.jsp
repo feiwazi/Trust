@@ -12,7 +12,7 @@
     <c:if test="${ret=='true'}">alert("修改成功!")</c:if>
     <c:if test="${ret=='false'}">alert("修改失败!")</c:if>
 </script>
-<form method="post" action="/mobile/admin/update.html">
+<form method="post" action="/admin/update.html">
     <input type="hidden" name="id" value="${article.id}">
 标题：<input type="text" name="title" value="${article.title}">
 内容:<textarea class="kindeditor" name="content" cols="100" rows="8" style="width:700px;height:200px;visibility:hidden;border: 1px solid #000">${article.content}</textarea>

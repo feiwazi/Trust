@@ -25,10 +25,11 @@ public class AdminInterceptor implements HandlerInterceptor {
     @Autowired
     AdminService adminService;
 
+
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
         String path = httpServletRequest.getServletPath();
-        if (path.indexOf(".html") == path.length() - 5) {
+        if (path.indexOf(".html") !=-1) {
             if (path.indexOf("/admin") == 0) {
                 if (!"/admin/login.html".equals(path)) {
                     BufferedImage bi = (BufferedImage) httpServletRequest.getSession().getAttribute("admin");

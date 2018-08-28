@@ -27,7 +27,14 @@
         <li><a href="tel:03592513939"><i class="n3"></i><span>电话咨询</span></a></li>
             <li><a href="${pageContext.request.contextPath }/menu/appointment.html"><i class="n4"></i><span>预约挂号</span></a></li>
     </ul>
-    <script language="javascript" src="http://dht.zoosnet.net/JS/LsJS.aspx?siteid=DHT49780692&float=1&lng=cn"></script>
+    <%--商务通--%>
+    <script language=javascript>
+        var LiveAutoInvite0='您好，有什么可以帮您?';
+        var LiveAutoInvite1='来自首页的对话';
+        var LiveAutoInvite2=' 网站商务通 主要功能：<br>1、主动邀请<br>2、即时沟通<br>3、查看即时访问动态<br>4、访问轨迹跟踪<br>5、内部对话<br>6、不安装任何插件也实现双向文件传输<br><br><b>如果您有任何问题请接受此邀请以开始即时沟通</b>';
+    </script>
+    <script language="javascript" src="http://dht.zoosnet.net/JS/LsJS.aspx?siteid=DHT49780692&lng=cn"></script>
+
 </div>
 <style>
     .BottomNav {

@@ -26,8 +26,8 @@
         <td>${i.id}</td>
         <td>${fn:substring(i.title, 0, 15)}</td>
         <td><fmt:formatDate value="${i.time}" pattern="yyyy-MM-dd HH:mm:ss "></fmt:formatDate></td>
-        <td><a href="/mobile/admin/update_${i.id}.html">修改</a></td>
-        <td><a href="/mobile/admin/delete.html/${i.id}">删除</a></td>
+        <td><a href="${pageContext.request.contextPath }/admin/update_${i.id}.html">修改</a></td>
+        <td><a href="${pageContext.request.contextPath }/admin/delete.html/${i.id}">删除</a></td>
     </tr>
 </c:forEach>
 </table>

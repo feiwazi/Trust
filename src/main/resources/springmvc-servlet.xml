@@ -46,6 +46,7 @@
 	 <mvc:interceptors>
 	<bean class="trust.interceptor.AdminInterceptor"></bean>
 		 <bean class="trust.interceptor.LoaderInterceptor"></bean>
+		 <bean class="trust.interceptor.RecordInterceptor"></bean>
 	 </mvc:interceptors>
 	<!-- 上传文件 -->
 	<bean id="multipartResolver"
