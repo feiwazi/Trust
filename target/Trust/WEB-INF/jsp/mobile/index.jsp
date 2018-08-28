@@ -73,11 +73,11 @@
             <div class="swiper-wrapper">
                 <c:forEach items="${team}" var="i">
                     <div class="swiper-slide">
-                        <div class="category-zj-hide"><a href="${pageContext.request.contextPath }/catalog.html/team/${i.id}"><img src="${pageContext.request.contextPath }/statics/images/${i.image}" class="category-zj-thumb"></a></div>
+                        <div class="category-zj-hide"><a href="${pageContext.request.contextPath }/article.html/${i.article.id}"><img src="${pageContext.request.contextPath }/statics/images/${i.image}" class="category-zj-thumb"></a></div>
                         <div class="category-zj-hide01">
-                            <h1>${i.name}&nbsp;</h1>
-                            <h3>${i.position}</h3>
-                            <p><b>擅长：</b>${i.introduce}</p>
+                            <h1><a  href="${pageContext.request.contextPath }/article.html/${i.article.id}">${i.name}&nbsp;</a></h1>
+                            <h3><a  href="${pageContext.request.contextPath }/article.html/${i.article.id}">${i.position}</a></h3>
+                            <p><a href="${pageContext.request.contextPath }/article.html/${i.article.id}"><b>擅长：</b>${i.introduce}</a></p>
                         </div>
                         <div class="category-zj-hide2"><a href="${pageContext.request.contextPath }/chat.html">在线咨询专家</a></div>
                     </div>

@@ -77,7 +77,7 @@ public class CatalogController {
             try {
                 illness(idint,model);
             } catch (Exception e) {
-                return "mobile/404";
+                return ControllerTool.abnormal_404(httpRequest);
             }
         }
         model.addAttribute("catalog", articlePage);
@@ -91,14 +91,14 @@ public class CatalogController {
      * @return
      */
     @RequestMapping(value = "class.html/{id}", method = RequestMethod.GET)
-    public String clas(Model model,@PathVariable String id){
+    public String clas(Model model,@PathVariable String id,HttpServletRequest httpRequest){
         Integer idint = StringTool.toInteger(id);
         if ( idint<1) {
-            return "mobile/404";
+            return ControllerTool.abnormal_404(httpRequest);
         }
         List<Illness> illnesses= (List<Illness>) illnessService.getList(new Illness(idint,null,null,null));
         if(illnesses.size()<1){
-            return "mobile/404";
+            return ControllerTool.abnormal_404(httpRequest);
         }
         IllnessEntity illnessEntity=new IllnessEntity(illnesses.get(0));
         illnessEntity.setIllnesses((List<Illness>) illnessService.getList(new Illness(null,null,idint,null)));
@@ -106,14 +106,14 @@ public class CatalogController {
 
         IllnessEntity illnessEntity1=new IllnessEntity(illnessEntity);
         if(illnessEntity.getIllnesses().size()>3){
-            illnessEntity1.setIllnesses((List<Illness>) illnessService.getSectionList(new Illness(null,null,idint,null),new RowBounds(1,3)));
+            illnessEntity1.setIllnesses((List<Illness>) illnessService.getSectionList(new Illness(null,null,idint,null),new RowBounds(0,3)));
         }else{
             illnessEntity1.setIllnesses(illnessEntity.getIllnesses());
         }
         List<IllnessEntity> ies=new ArrayList<>();
         for (Illness i:illnessEntity1.getIllnesses()){
             IllnessEntity ie=new IllnessEntity(i);
-            ie.setArticles((List<? extends Article>) articleService.getSectionList(new Article(null,null,null,null,"illness",i.getId()),new RowBounds(1,3)));
+            ie.setArticles((List<? extends Article>) articleService.getSectionList(new Article(null,null,null,null,"illness",i.getId()),new RowBounds(0,3)));
             ies.add(ie);
         }
         illnessEntity1.setIllnesses(ies);
@@ -122,14 +122,14 @@ public class CatalogController {
 }
 
     @RequestMapping(value = "dynamic.html/{type}/{page}", method = RequestMethod.GET)
-public String dynamic(@PathVariable String type,String page,Model model){
+public String dynamic(@PathVariable String type,String page,Model model ,HttpServletRequest httpRequest){
         Integer pageint = StringTool.toInteger(page);
         if ( pageint == null ||  pageint<1) {
-            return "mobile/404";
+            return ControllerTool.abnormal_404(httpRequest);
         }
         Page<Dynamic> pageList =  dynamicService.getPageList(new Dynamic(null,null,type),new RowBounds(pageint,3));
         if(pageList.getPojos().size()<1){
-            return "mobile/404";
+            return ControllerTool.abnormal_404(httpRequest);
         }
         List<DynamicEntity> dynamicEntities=new ArrayList<>();
         for (Dynamic d: pageList.getPojos()){
@@ -151,8 +151,8 @@ public String dynamic(@PathVariable String type,String page,Model model){
      * @return
      */
     @RequestMapping(value = "dynamic.html/{type}",method = RequestMethod.GET)
-public String dynamic(@PathVariable String type,Model model){
-return dynamic(type,1+"",model);
+public String dynamic(@PathVariable String type,Model model,HttpServletRequest httpServletRequest){
+return dynamic(type,1+"",model, httpServletRequest);
 }
 
     /**

@@ -14,4 +14,4 @@
         border: 0;
     }
 </style>
-<%--<iframe width="100%" height="100%" src="http://dht.zoosnet.net/LR/Chatpre.aspx?id=DHT49780692&lng=cn"></iframe>--%>
+<iframe width="100%" height="100%" src="http://dht.zoosnet.net/LR/Chatpre.aspx?id=DHT49780692&lng=cn"></iframe>

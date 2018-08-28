@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 import trust.pojo.*;
 import trust.pojo.entity.DynamicEntity;
 import trust.pojo.entity.IllnessEntity;
+import trust.pojo.entity.TeamEntity;
 import trust.service.*;
 
 import javax.servlet.http.HttpSession;
@@ -99,7 +100,13 @@ public class DataHandle {
             int count = teamService.getCount(team);
             int b = count > 3 ? new Random().nextInt(count - 2) : 0;
             List<Team> teamList = (List<Team>) teamService.getSectionList(team, new RowBounds(b, 3));
-            session.setAttribute("team", teamList);
+            List<TeamEntity> teamEntities =new ArrayList<>();
+            for (Team team1 : teamList) {
+                TeamEntity te=new TeamEntity(team1);
+                te.setArticle((Article) articleService.getPojo(new Article(null,null,null,null,"team",te.getId())));
+                teamEntities.add(te);
+            }
+             session.setAttribute("team", teamEntities);
         }
     }
 
