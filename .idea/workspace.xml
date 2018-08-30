@@ -6,32 +6,36 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="Trust:war" />
       <artifact name="Trust:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87b12f9d-0d0c-4e3a-884e-9d51deafe5a0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trust/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trust/controller/CatalogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trust/controller/DataHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trust/controller/DataHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trust/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trust/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/chat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/chat.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/images/article_tel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/article_tel.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/images/article_zx.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/article_zx.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/common/foot.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/common/foot.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/images/banner/banner01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/banner/banner01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/images/banner/banner02.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/banner/banner02.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/images/banner/banner04.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/banner/banner04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/images/banner/huanjing.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/banner/huanjing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/images/banner/huanjing1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/banner/huanjing1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/images/banner/huanjing2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/banner/huanjing2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Trust.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trust/WEB-INF/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/WEB-INF/classes/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trust/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trust/WEB-INF/classes/trust/controller/CatalogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/WEB-INF/classes/trust/controller/CatalogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trust/WEB-INF/classes/trust/controller/DataHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/WEB-INF/classes/trust/controller/DataHandle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trust/WEB-INF/jsp/mobile/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/WEB-INF/jsp/mobile/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trust/statics/images/article_tel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/statics/images/article_tel.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trust/statics/images/article_zx.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/statics/images/article_zx.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Trust/WEB-INF/classes/trust/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/WEB-INF/classes/trust/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Trust/WEB-INF/jsp/mobile/chat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/WEB-INF/jsp/mobile/chat.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Trust/WEB-INF/jsp/mobile/common/foot.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/WEB-INF/jsp/mobile/common/foot.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Trust/statics/images/banner/banner01.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/statics/images/banner/banner01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Trust/statics/images/banner/banner02.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/statics/images/banner/banner02.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Trust/statics/images/banner/banner04.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/statics/images/banner/banner04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trust/controller/CatalogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/trust/controller/CatalogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trust/controller/DataHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/trust/controller/DataHandle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Trust/statics/images/banner/huanjing.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/statics/images/banner/huanjing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Trust/statics/images/banner/huanjing1.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/statics/images/banner/huanjing1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Trust/statics/images/banner/huanjing2.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/statics/images/banner/huanjing2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Trust/statics/images/logo-bann.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Trust/statics/images/logo-bann.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trust/statics/images/logo-bann.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/trust/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/trust/controller/HomeController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,11 +61,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="database.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
+      <file leaf-file-name="team.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/team.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="200">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/common/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="20" column="79" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -69,89 +82,35 @@
       <file leaf-file-name="chat.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/chat.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="524">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trust/controller/ArticleController.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="60" />
+            <state relative-caret-position="2550">
+              <caret line="102" column="14" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CatalogController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trust/controller/CatalogController.java">
+      <file leaf-file-name="foot.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/common/foot.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1475">
-              <caret line="68" column="134" selection-start-line="68" selection-start-column="127" selection-end-line="68" selection-end-column="134" />
+            <state relative-caret-position="369">
+              <caret line="93" column="115" selection-start-line="93" selection-start-column="115" selection-end-line="93" selection-end-column="115" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="computerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trust/controller/computerController.java">
+      <file leaf-file-name="database.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trust/controller/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-              <folding>
-                <element signature="e#463#464#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KindeditorController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trust/controller/KindeditorController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="137" column="54" selection-start-line="137" selection-start-column="43" selection-end-line="137" selection-end-column="54" />
-              <folding>
-                <marker date="1535011605375" expanded="true" signature="1480:6248" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trust/controller/MenuController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="122" column="72" selection-start-line="122" selection-start-column="72" selection-end-line="122" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trust/controller/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-113">
-              <caret line="189" column="35" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="75">
+              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -163,8 +122,8 @@
       <list>
         <option value="Arquillian JUnit Test Class" />
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -195,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/foot.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/chat.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/trust/mapper/AdminMapper.java" />
@@ -210,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dynamic.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/dynamic.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/trust/util/ControllerTool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/trust/controller/ArticleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/trust/controller/MenuController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/common/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/404.jsp" />
@@ -229,7 +186,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/statics/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/computer/common/foot.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/computer/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/trust/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/trust/interceptor/LoaderInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/error.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/trust/controller/AdminController.java" />
@@ -237,14 +193,17 @@
         <option value="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/trust/interceptor/RecordInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/common/foot.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/admin/query.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/admin/update.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/trust/controller/DataHandle.java" />
         <option value="$PROJECT_DIR$/src/main/java/trust/controller/CatalogController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/chat.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/trust/controller/ArticleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/trust/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/tt.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/chat.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/common/foot.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
       </list>
     </option>
@@ -296,7 +255,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="187" />
     <option name="y" value="16" />
     <option name="width" value="1400" />
@@ -308,7 +267,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -483,7 +442,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -733,12 +692,14 @@
       <workItem from="1535112804313" duration="420000" />
       <workItem from="1535244960384" duration="13788000" />
       <workItem from="1535332587331" duration="10169000" />
-      <workItem from="1535418798883" duration="8837000" />
+      <workItem from="1535418798883" duration="9548000" />
+      <workItem from="1535505691488" duration="12149000" />
+      <workItem from="1535591749753" duration="1519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="312531000" />
+    <option name="totallyTimeSpent" value="326910000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -750,8 +711,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="9" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -771,25 +731,25 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43766937" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.2976996" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49550128" weight="0.28281462" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49550128" weight="0.14227642" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="16" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49678662" visible="true" weight="0.16395664" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49678662" visible="true" weight="0.27642277" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32882273" />
       <window_info anchor="bottom" id="CheckStyle" order="12" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8125" visible="true" weight="0.22557841" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8125" visible="true" weight="0.23136246" />
       <window_info id="Web" order="7" sideWeight="0.08471455" side_tool="true" weight="0.2718509" />
       <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.13125846" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" sideWeight="0.12946428" side_tool="true" weight="0.2866324" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.13125846" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -814,20 +774,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/computer/portfolio.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="138" column="10" selection-start-line="138" selection-start-column="10" selection-end-line="138" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/computer/pricing.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="123" column="10" selection-start-line="123" selection-start-column="10" selection-end-line="123" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/computer/services.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2350">
@@ -932,9 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -942,9 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,9 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -979,24 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/common/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/common/foot.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,16 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="76" column="56" lean-forward="true" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trust/service/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -1089,41 +998,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trust/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
+        <state relative-caret-position="4150">
           <caret line="189" column="35" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trust/controller/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trust/controller/computerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
+        <state relative-caret-position="375">
           <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trust/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="e#463#464#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trust/controller/KindeditorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
+        <state relative-caret-position="2925">
           <caret line="137" column="54" selection-start-line="137" selection-start-column="43" selection-end-line="137" selection-end-column="54" />
           <folding>
             <marker date="1535011605375" expanded="true" signature="1480:6248" ph="{...}" />
@@ -1133,29 +1022,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trust/controller/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="2325">
           <caret line="122" column="72" selection-start-line="122" selection-start-column="72" selection-end-line="122" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trust/controller/CatalogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1475">
+        <state relative-caret-position="1150">
           <caret line="68" column="134" selection-start-line="68" selection-start-column="127" selection-end-line="68" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trust/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trust/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+          <folding>
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/tt.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="102" column="14" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/team.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/common/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="79" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/chat.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="524">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mobile/common/foot.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="369">
+          <caret line="93" column="115" selection-start-line="93" selection-start-column="115" selection-end-line="93" selection-end-column="115" />
         </state>
       </provider>
     </entry>
