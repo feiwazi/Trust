@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="pageTitle">Contact Us</h2>
+                <h2 class="pageTitle">联系我们</h2>
             </div>
         </div>
     </div>
@@ -22,7 +22,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="about-logo">
-                    <h3>Get in Touch!</h3>
+                    <h3>保持联系！</h3>
                     <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
                     <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
                 </div>
@@ -41,22 +41,22 @@
 
                     <form method="post" action="contact.php" id="contactform" class="contact">
                         <div class="form-group has-feedback">
-                            <label for="name">Name*</label>
+                            <label for="name">姓名*</label>
                             <input type="text" class="form-control" name="name" placeholder="">
                             <i class="fa fa-user form-control-feedback"></i>
                         </div>
                         <div class="form-group has-feedback">
-                            <label for="email">Email*</label>
+                            <label for="email">邮箱*</label>
                             <input type="email" class="form-control" name="email" placeholder="">
                             <i class="fa fa-envelope form-control-feedback"></i>
                         </div>
 
                         <div class="form-group has-feedback">
-                            <label for="message">Message*</label>
+                            <label for="message">描述*</label>
                             <textarea class="form-control" rows="6" name="comment" placeholder=""></textarea>
                             <i class="fa fa-pencil form-control-feedback"></i>
                         </div>
-                        <input type="submit" value="Submit" id="submit" class="submit btn btn-default">
+                        <input type="submit" value="提交" id="submit" class="submit btn btn-default">
                     </form>
 
 

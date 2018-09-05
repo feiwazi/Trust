@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="pageTitle">Services</h2>
+                <h2 class="pageTitle">服务</h2>
             </div>
         </div>
     </div>
@@ -22,11 +22,11 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="about-logo">
-                    <h3>Our Services</h3>
+                    <h3>我们的服务</h3>
                     <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
                     <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
                 </div>
-                <a href="#" class="btn btn-color">Read more</a>
+                <%--<a href="#" class="btn btn-color">Read more</a>--%>
             </div>
         </div>
         <div class="row service-v1 margin-bottom-40">

@@ -43,8 +43,7 @@
                         <li><a href="index.html">主页</a></li>
                         <li><a href="about.html">关于我们</a></li>
                         <li><a href="services.html">服务</a></li>
-                        <li><a href="feature.html">特色疗法</a></li>
-                        <li><a href="pricing.html">就医环境</a></li>
+                        <li><a href="gallery.html">康复案例</a></li>
                         <li><a href="contact.html">联系</a></li>
                     </ul>
                 </div>

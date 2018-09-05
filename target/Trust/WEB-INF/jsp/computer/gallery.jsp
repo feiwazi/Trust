@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="pageTitle">Gallery</h2>
+                <h2 class="pageTitle">康复案例</h2>
             </div>
         </div>
     </div>
@@ -21,7 +21,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div>
-                    <h3>What we do?</h3>
+                    <h3>痊愈的患者</h3>
                     <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
                     <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
                 </div>
@@ -51,7 +51,7 @@
                                     <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="images/works/1.jpg" alt="">
+                                <img src="${pageContext.request.contextPath }/statics/images/works/1.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
                             <!-- Item Project and Filter Name -->
@@ -62,7 +62,7 @@
                                     <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="images/works/2.jpg" alt="">
+                                <img src="${pageContext.request.contextPath }/statics/images/works/2.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
                             <!-- Item Project and Filter Name -->
@@ -73,7 +73,7 @@
                                     <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="images/works/3.jpg" alt="">
+                                <img src="${pageContext.request.contextPath }/statics/images/works/3.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
                             <!-- Item Project and Filter Name -->
@@ -84,7 +84,7 @@
                                     <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="images/works/4.jpg" alt="">
+                                <img src="${pageContext.request.contextPath }/statics/images/works/4.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
                             <!-- Item Project and Filter Name -->
@@ -95,7 +95,7 @@
                                     <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="images/works/5.jpg" alt="">
+                                <img src="${pageContext.request.contextPath }/statics/images/works/5.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
                             <!-- Item Project and Filter Name -->
@@ -106,7 +106,7 @@
                                     <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="images/works/6.jpg" alt="">
+                                <img src="${pageContext.request.contextPath }/statics/images/works/6.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
                             <li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="web">
@@ -116,7 +116,7 @@
                                     <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="images/works/7.jpg" alt="">
+                                <img src="${pageContext.request.contextPath }/statics/images/works/7.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
                             <!-- Item Project and Filter Name -->
@@ -127,7 +127,7 @@
                                     <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="images/works/8.jpg" alt="">
+                                <img src="${pageContext.request.contextPath }/statics/images/works/8.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
                         </ul>

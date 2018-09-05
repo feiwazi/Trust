@@ -34,7 +34,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="aligncenter"><h1 class="aligncenter">我们关心你</h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus.</div>
+                <div class="aligncenter"><h1 class="aligncenter">我们的特色疗法</h1>以特色"攻勉消散"疗法(中西药结核、纯中药)应诊各种顽固结核病，使许多大城市三甲医院久治无好转的患者获得痊愈。</div>
             </div>
         </div>
     </div>
@@ -49,7 +49,7 @@
                             <img src="${pageContext.request.contextPath }/statics/images/1.png" alt="" />
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Child Care</h4>
+                            <h4 class="media-heading">不手术</h4>
                             <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                             <img src="${pageContext.request.contextPath }/statics/images/2.png" alt="" />
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Women Care</h4>
+                            <h4 class="media-heading">无痛苦</h4>
                             <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                             <img src="${pageContext.request.contextPath }/statics/images/3.png" alt="" />
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Family</h4>
+                            <h4 class="media-heading">疗效好</h4>
                             <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                             <img src="${pageContext.request.contextPath }/statics/images/4.png" alt="" />
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Heart</h4>
+                            <h4 class="media-heading">不耐药</h4>
                             <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                             <img src="${pageContext.request.contextPath }/statics/images/5.png" alt="" />
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Eye Care</h4>
+                            <h4 class="media-heading">零遗症</h4>
                             <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
                         </div>
                     </div>
@@ -109,7 +109,7 @@
                             <img src="${pageContext.request.contextPath }/statics/images/7.png" alt="" />
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Testing</h4>
+                            <h4 class="media-heading">中草药</h4>
                             <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="aligncenter"><h2 class="aligncenter">Welcome!</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                <div class="aligncenter"><h2 class="aligncenter">守信中医结核病专科医院竭诚为您服务！</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
                 <br/>
             </div>
         </div>
@@ -151,7 +151,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="aligncenter"><h2 class="aligncenter">Our Events</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus.</div>
+                <div class="aligncenter"><h2 class="aligncenter">设备</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus.</div>
                 <br>
             </div>
         </div>

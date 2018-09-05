@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="pageTitle">About Us</h2>
+                <h2 class="pageTitle">关于我们</h2>
             </div>
         </div>
     </div>
@@ -24,11 +24,11 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="about-logo">
-                        <h3>We are awesome <span class="color">TEAM</span></h3>
+                        <h3>我们是很棒的<span class="color">团队</span></h3>
                         <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
                         <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
                     </div>
-                    <a href="#" class="btn btn-color">Read more</a>
+                    <%--<a href="#" class="btn btn-color">Read more</a>--%>
                 </div>
             </div>
 
@@ -39,13 +39,13 @@
                 <div class="col-md-4">
                     <!-- Heading and para -->
                     <div class="block-heading-two">
-                        <h3><span>Why Choose Us?</span></h3>
+                        <h3><span>为什么选择我们？</span></h3>
                     </div>
                     <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur. <br/><br/>Sed ut perspiciaatis iste natus error sit voluptatem probably haven't heard of them accusamus.</p>
                 </div>
                 <div class="col-md-4">
                     <div class="block-heading-two">
-                        <h3><span>Our Solution</span></h3>
+                        <h3><span>我们的方案</span></h3>
                     </div>
                     <strong>2016</strong>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente. consptates placeat consectetur quam aliquam!</p>
@@ -56,7 +56,7 @@
 
                 <div class="col-md-4">
 
-                    <h3>Molestie consequat</h3>
+                    <h3>我们的疗效</h3>
                     <ul class="list2">
                         <li><a href="#">Eriure dolor in hendrerit in vulpu</a></li>
                         <li><a href="#">Otate velit esse molestie con</a></li>
@@ -76,7 +76,7 @@
 
             <!-- Heading -->
             <div class="block-heading-six">
-                <h4 class="bg-color">Our Team</h4>
+                <h4 class="bg-color">我们的团队</h4>
             </div>
             <br>
 

@@ -773,5 +773,5 @@ div[class^=swiper-container]{overflow:hidden;position:relative;}
 .form-control{width: 17em;border: #aaa solid 0.1px;font-size: 24px;padding:1%;color: #656565;padding: 0.5em}
 .form-btn{width: 10em;height: 4em;border: 0;margin: 0 4.5em;border-radius:10px;background-color: #0099a9;color: white}*/
 .form-control{width: 60%;border: 1px solid #aaa;margin: 1% 0}
-/*.unit{text-align:left}*/
+.unit{font-size: 1em}
 
