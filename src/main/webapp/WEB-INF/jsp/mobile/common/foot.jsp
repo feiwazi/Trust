@@ -91,5 +91,5 @@
         color: #fff;
     }
 </style>
-<script language="javascript" src="http://dht.zoosnet.net/JS/LsJS.aspx?siteid=DHT49780692&float=1&lng=cn"></script>
+<script language="javascript" src="https://dht.zoosnet.net/JS/LsJS.aspx?siteid=DHT49780692&float=1&lng=cn"></script>
 </html>

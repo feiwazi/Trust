@@ -22,7 +22,16 @@
     <script type="text/javascript" src="${pageContext.request.contextPath }/statics/js/swiper-3.4.1.min.js"></script>
     <link rel="stylesheet" href="${pageContext.request.contextPath }/statics/css/main.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath }/statics/css/swiper-3.4.1.min.css">
-    <!-- Bootstrap -->
+    <!--百度统计 -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?300d93363b6b2253fcf69c91999c4819";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
 <div class="top_top" style="position:relative;">
     <a href="${pageContext.request.contextPath }/"><img src="${pageContext.request.contextPath }/statics/images/logo-bann.png" class="logo"></a>

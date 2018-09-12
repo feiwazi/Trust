@@ -50,7 +50,7 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">不手术</h4>
-                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                            <p>中西医结合，避免做手术</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -62,7 +62,7 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">无痛苦</h4>
-                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                            <p>以中医为主要治疗方式，毫无痛苦</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -74,7 +74,7 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">疗效好</h4>
-                            <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
+                            <p>中西医结合，西药用于杀菌，中药用于修复伤损组织</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -86,7 +86,7 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">不耐药</h4>
-                            <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
+                            <p>主要治疗方式为中医,康复后不会反复发作,不耐药</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -98,7 +98,7 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">零遗症</h4>
-                            <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
+                            <p>使用《明宫秘方》为医治方案，零后遗症</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -110,7 +110,7 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">中草药</h4>
-                            <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
+                            <p>中草药，天然的，更放心</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -123,7 +123,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="aligncenter"><h2 class="aligncenter">守信中医结核病专科医院竭诚为您服务！</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                <div class="aligncenter"><h2 class="aligncenter">守信中医结核病专科医院竭诚为您服务！</h2>中医“共勉消散”疗法，治愈率99.91%</div>
                 <br/>
             </div>
         </div>
@@ -133,14 +133,14 @@
                 <div class="space"></div>
             </div>
             <div class="col-md-6">
-                <p><h5>Lorem ipsum dolor sit amet, cadipisicing  sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde fuga error commodi architecto, oribus omnis minus autem nemo numquam, ipsa architecto non. magni consequuntlaudantium culpa tenetur at id, beatae pet.</h5></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. adipisicing  sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium,m deserunt.</p>
+                <p><h5>世界卫生组织警告说，肺结核已成为世界成年人的主要致命疾病，在我国防治结核病第一线上，涌现出了许多医德良好，医术精湛的白衣天使，本院的李守信，仝丽芳夫妇就是其中之一，他们把现代医学科学理论与祖传中医理论结合制出“抗痨散”系列药物和治疗方法，在抗痨战线上取得了辉煌成就。</h5></p>
+                <p>展望医院的前景,李守信、仝丽芳夫妇满怀信心地说不断加大科研开发力度，积极接受全国结核病科研协作组布置的科研力度，诚心实意地与全国各兄弟医院合作,为全国广大的结核病患者拓展一条充满阳光的“爱心路”。</p>
                 <ul class="list-unstyled">
-                    <li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Lorem ipsum enimdolor sit amet</li>
-                    <li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Explicabo deleniti neque aliquid</li>
-                    <li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Consectetur adipisicing elit</li>
-                    <li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Lorem ipsum dolor sit amet</li>
-                    <li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Quo issimos molest quibusdam temporibus</li>
+                    <li><i class="fa fa-arrow-circle-right pr-10 colored"></i> “共勉消散”疗法,疗效好</li>
+                    <li><i class="fa fa-arrow-circle-right pr-10 colored"></i> 中医医结合，无副作用</li>
+                    <li><i class="fa fa-arrow-circle-right pr-10 colored"></i> 设备齐全，绿树成荫，有益于患者痊愈</li>
+                    <li><i class="fa fa-arrow-circle-right pr-10 colored"></i> 省政府颁发科技进步二等奖</li>
+                    <li><i class="fa fa-arrow-circle-right pr-10 colored"></i> 治愈患者2000+例</li>
                 </ul>
             </div>
         </div>
@@ -151,7 +151,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="aligncenter"><h2 class="aligncenter">设备</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus.</div>
+                <div class="aligncenter"><h2 class="aligncenter">设备</h2>运城市守信中医结核病专科医院占地10亩，建筑面积4700平方米，门诊楼、宿舍楼及其他附属设备一应俱全，拥有300 毫安X光机,系列化验设备、手束器械、理疗机、制剂设备、污物焚烧炉、污水净化机等，一座集制剂、住院等功能于一体的四层综合大楼</div>
                 <br>
             </div>
         </div>
@@ -160,11 +160,11 @@
                 <div class="post3">
                     <img src="${pageContext.request.contextPath }/statics/images/e1.png" alt="">
                     <a href="#">
-                        <time datetime="2016-03-01">
-                            <span class="year">2016</span>
-                            <span class="month">Feb</span>
+                        <time datetime="1953-03-01">
+                            <span class="year">1953年</span>
+                            <span class="month">2月</span>
                         </time>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipis.</p>
+                        <p>根据《明宫遗书》研制“共勉消散”疗法</p>
                     </a>
                 </div>
             </div>
@@ -172,11 +172,11 @@
                 <div class="post3">
                     <img src="${pageContext.request.contextPath }/statics/images/e2.png" alt="">
                     <a href="#">
-                        <time datetime="2016-03-01">
-                            <span class="year">2016</span>
-                            <span class="month">March</span>
+                        <time datetime="1986-06-01">
+                            <span class="year">1986年</span>
+                            <span class="month">6月</span>
                         </time>
-                        <p>Apsum dolor sit amet, consectetur adipisdslif.</p>
+                        <p>建立结核病菌实验室</p>
                     </a>
                 </div>
             </div>
@@ -184,11 +184,11 @@
                 <div class="post3">
                     <img src="${pageContext.request.contextPath }/statics/images/e3.png" alt="">
                     <a href="#">
-                        <time datetime="2016-03-01">
-                            <span class="year">2016</span>
-                            <span class="month">April</span>
+                        <time datetime="2003-08-01">
+                            <span class="year">2003</span>
+                            <span class="month">8月</span>
                         </time>
-                        <p>Dolor sit amet, consectetur adipisic indfeft</p>
+                        <p>引进 “罗德费电子嗅探器”</p>
                     </a>
                 </div>
             </div>
