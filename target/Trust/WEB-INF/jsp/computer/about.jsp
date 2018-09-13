@@ -41,13 +41,13 @@
                     <div class="block-heading-two">
                         <h3><span>为什么选择我们？</span></h3>
                     </div>
-                    <p>&emsp;&emsp;“攻娩消散疗法”是《运城守信中医结核病专科医院》传承与《明宫秘方》辨证论治，内外同治，治疗保健预防三位一体。它根据中医古秘方研究，使用简捷的秘方治疗，突出辨证论治的中医特色。</p>
+                    <p>&emsp;&emsp;“攻娩消散疗法”是《运城守信中医结核病专科医院》传承与《明宫遗方》辨证论治，内外同治，治疗保健预防三位一体。它根据中医古秘方研究，使用简捷的秘方治疗，突出辨证论治的中医特色。</p>
                 </div>
                 <div class="col-md-4">
                     <div class="block-heading-two">
                         <h3><span>我们的方案</span></h3>
                     </div>
-                    <p>&emsp;&emsp;“攻娩消散”疗法传承与“明宫遗方”这套书。它是明宫遗方，明宫遗书。为什么叫明宫遗书呢，这个书在六百年以前，是这个存于明朝皇宫里边的，御医用它来给那些当(时)的那些，皇帝大臣，（皇室）家族进行治疗和保健的参考书，医学书籍。 </p>
+                    <p>&emsp;&emsp;“攻娩消散”疗法传承与《明宫遗方》这套书。它是明宫遗方，明宫遗方。为什么叫明宫遗方呢，这个书在六百年以前，是这个存于明朝皇宫里边的，御医用它来给那些当(时)的那些，皇帝大臣，（皇室）家族进行治疗和保健的参考书，医学书籍。 </p>
                 </div>
 
                 <div class="col-md-4">
@@ -61,22 +61,15 @@
                         <li> 治愈患者2000+例</li>
                     </ul>
                 </div>
-
             </div>
-
-
-
             <br>
-            <!-- Our Team starts -->
-
+            <!-- Our Tea starts -->
             <!-- Heading -->
             <div class="block-heading-six">
                 <h4 class="bg-color">我们的团队</h4>
             </div>
             <br>
-
             <!-- Our team starts -->
-
             <div>
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
@@ -125,12 +118,8 @@
                     </div>
                 </div>
             </div>
-
             <!-- Our team ends -->
-
-
         </div>
-
     </div>
 </section>
 <%@ include file="common/foot.jsp" %>

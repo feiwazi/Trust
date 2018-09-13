@@ -44,5 +44,6 @@
 <script src="${pageContext.request.contextPath }/statics/js/jquery.flexslider.js"></script>
 <script src="${pageContext.request.contextPath }/statics/js/animate.js"></script>
 <script src="${pageContext.request.contextPath }/statics/js/custom.js"></script>
+<%@ include file="../../jump.jsp" %>
 </body>
 </html>

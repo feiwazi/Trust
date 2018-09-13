@@ -22,8 +22,8 @@
             <div class="col-md-12">
                 <div>
                     <h3>痊愈的患者</h3>
-                    <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
-                    <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
+
+                    <p>一位来自湖北的患者李月娥曾患颈胸椎骨结核瘫痪在床，胸以下皮肤失去知觉，大小便失禁,整天茶饭不思，骨瘦如柴，在武汉市住院治疗花费4万余元，病情没有好转。经李守信大夫用”抗痨散”治疗8个月后， 不仅可以坐立、行走,并能承担一部分家务 劳动。河南鲁山县肺结核患者齐兴林；陕西洛南县垣底村肠结核患者寇蒙飞；山西古交市二中关节结核患者成秋铃；安徽宿县双庙村肺结核患者王道化……服用“抗痨散”治疗结核病取得满意疗效。湖北嘉鱼县政协主席刘风英、宁夏吴忠市人大常委郭存清,武汉市新河人民法院张学惠……他们被认为棘手的结核病痊愈后，在当地引起轰动。</p>
                 </div>
             </div>
         </div>
@@ -33,10 +33,10 @@
         <div class="row">
             <div class="col-lg-12">
                 <ul class="portfolio-categ filter">
-                    <li class="all active"><a href="#">All</a></li>
-                    <li class="web"><a href="#" title="">Continental</a></li>
-                    <li class="icon"><a href="#" title="">Asian Food</a></li>
-                    <li class="graphic"><a href="#" title="">Italian Food</a></li>
+                    <li class="all active"><a href="#">全部</a></li>
+                    <li class="web"><a href="#" title="">结核病</a></li>
+                    <li class="icon"><a href="#" title="">瘘管窦道</a></li>
+                    <li class="graphic"><a href="#" title="">胸膜炎</a></li>
                 </ul>
                 <div class="clearfix">
                 </div>

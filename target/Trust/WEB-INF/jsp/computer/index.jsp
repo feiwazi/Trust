@@ -11,20 +11,20 @@
     <!-- Slider -->
     <div id="main-slider" class="flexslider">
         <ul class="slides">
-            <li>
-                <img src="${pageContext.request.contextPath }/statics/images/slides/1.jpg" alt="" />
-                <div class="flex-caption container">
+            <li style="text-align: center">
+                <img style="height: 100px"  src="${pageContext.request.contextPath }/statics/images/slides/1.jpg" alt="" />
+                <%--<div class="flex-caption container">
                     <h3>关心您的健康</h3>
                     <p>没有什么比健康最重要</p>
-                </div>
+                </div>--%>
             </li>
-            <li>
+            <%--<li>
                 <img src="${pageContext.request.contextPath }/statics/images/slides/2.jpg" alt="" />
                 <div class="flex-caption container">
                     <h3>最好的设备</h3>
                     <p>用世界上最顶先的设备来治疗您的伤痛</p>
                 </div>
-            </li>
+            </li>--%>
         </ul>
     </div>
     <!-- end slider -->
@@ -98,7 +98,7 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">零遗症</h4>
-                            <p>使用《明宫秘方》为医治方案，零后遗症</p>
+                            <p>使用《明宫遗方》为医治方案，零后遗症</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -164,7 +164,7 @@
                             <span class="year">1953年</span>
                             <span class="month">2月</span>
                         </time>
-                        <p>根据《明宫遗书》研制“共勉消散”疗法</p>
+                        <p>根据《明宫遗方》研制“共勉消散”疗法</p>
                     </a>
                 </div>
             </div>

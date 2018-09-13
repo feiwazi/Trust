@@ -13,7 +13,6 @@ import java.util.List;
  **/
 public class ImageTool {
 
-
     /**
      * 生成加密图片
      * @param key
