@@ -30,5 +30,5 @@
             }
         }
     }
-    browserRedirect();
+   /* browserRedirect();*/
 </script>

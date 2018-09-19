@@ -1,15 +1,16 @@
 package trust.controller;
 
 import org.apache.ibatis.session.RowBounds;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import trust.pojo.Appointment;
 import trust.pojo.Article;
-import trust.pojo.Illness;
 import trust.pojo.Team;
 import trust.pojo.entity.Page;
 import trust.pojo.entity.TeamEntity;
@@ -21,10 +22,7 @@ import trust.util.ControllerTool;
 import trust.util.StringTool;
 
 import javax.servlet.http.HttpServletRequest;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -68,6 +66,12 @@ public class MenuController {
         for (Team i : teampage.getPojos()) {
             TeamEntity te = new TeamEntity(i);
             te.setArticle((Article) articleService.getPojo(new Article(null, null, null, null, "team", te.getId())));
+            Document d = Jsoup.parse(te.getArticle().getContent());
+            Elements elements= d.select("img");
+            if(elements.size()>0){
+                String image=elements.get(0).attr("src");
+                te.setImage(image.split("images")[1]);
+            }
             teamEntities.add(te);
         }
         teampage.setPojos(teamEntities);
@@ -86,7 +90,7 @@ public class MenuController {
         model.addAttribute("article", a);
         return "mobile/introduce";
     }
-    /*预约挂号*/
+/*    *//*预约挂号*//*
     @RequestMapping(value = "appointment.html", method = RequestMethod.GET)
     public String appointmentGet(Model model) {
         List<Illness> illnesses = (List<Illness>) illnessService.getList(new Illness(null, null, 0, null));
@@ -119,7 +123,7 @@ public class MenuController {
         ret = appointmentService.add(new Appointment(null, name, phone, illInt, date, message));
         model.addAttribute("ret", ret);
         return "mobile/appointment";
-    }
+    }*/
     @RequestMapping(value = "recovery.html", method = RequestMethod.GET)
     public String recovery(Model model,HttpServletRequest httpRequest){
         return catalogController.catalog("recovery",0+"",model,httpRequest);

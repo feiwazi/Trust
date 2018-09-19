@@ -14,7 +14,6 @@ import trust.service.*;
 
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Random;
 
@@ -103,7 +102,14 @@ public class DataHandle {
             List<TeamEntity> teamEntities =new ArrayList<>();
             for (Team team1 : teamList) {
                 TeamEntity te=new TeamEntity(team1);
-                te.setArticle((Article) articleService.getPojo(new Article(null,null,null,null,"team",te.getId())));
+                Article article=(Article) articleService.getPojo(new Article(null,null,null,null,"team",te.getId()));
+                Document d = Jsoup.parse(article.getContent());
+                Elements elements= d.select("img");
+                if(elements.size()>0){
+                    String image=elements.get(0).attr("src");
+                    te.setImage(image.split("images")[1]);
+                }
+                te.setArticle(article);
                 teamEntities.add(te);
             }
              session.setAttribute("team", teamEntities);
@@ -115,14 +121,4 @@ public class DataHandle {
     }
 
 
-    public void full(){
-        List<Illness> i= (List<Illness>) illnessService.getList(new Illness(null,null,0,null));
-        for (Illness ill: i){
-            List<Illness> temp= (List<Illness>) illnessService.getList(new Illness(null,null,ill.getId(),null));
-            for (Illness ills:temp){
-                Random r=new Random();
-                articleService.add(new Article(null,r.nextInt()+"",r.nextInt()+"",new Date(),"illness",ills.getId()));
-            }
-        }
-    }
 }

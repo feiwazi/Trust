@@ -28,6 +28,7 @@
         </select></div>
         <div class="unit">时间：<input type="datetime-local" name="time"  class="form-control"></div>
         <div class="unit"><span style="float: left;margin: 0 0 0 15.8%">描述：</span><textarea class="form-control" name="message" cols="10" rows="10" placeholder="病情描述[200字]" style="height: 10%;position: relative;left: -7.5%"></textarea></div>
+        <div class="unit"><input  style="width: 5em"  class="form-control" type="submit"></div>
     </form>
     </div>
 </div>

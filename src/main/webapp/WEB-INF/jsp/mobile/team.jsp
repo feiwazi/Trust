@@ -36,7 +36,7 @@
 <div class="clear"></div>
 <div class="pagelistbox">
 <c:if test="${teamPage.currentPage>1}">
-    <a href="/lihuapinpai/zhuanjiatuandui/index.html" class="a1">上一页</a>
+    <a href="${pageContext.request.contextPath }/menu/team.html/${teamPage.currentPage-1}" class="a1">上一页</a>
 </c:if>
     <span>${teamPage.currentPage}</span>
     <c:if test="${teamPage.pageCount>teamPage.currentPage}">

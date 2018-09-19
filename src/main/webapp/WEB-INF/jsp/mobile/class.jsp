@@ -84,9 +84,7 @@
         <span>专家团队</span>
     </div>
     <div class="category-zj-list" id="category-zj-list">
-
-
-        <div class="swiper-container1">
+       <%-- <div class="swiper-container1">
             <div class="swiper-wrapper">
                 <c:forEach items="${team}" var="i">
                 <div class="swiper-slide">
@@ -107,7 +105,29 @@
                 pagination : '.swiper-pagination',
                 loop:true
             })
-        </script>
+        </script>--%>
+           <div class="swiper-container1 swiper-container-horizontal">
+                <c:forEach items="${team}" var="i">
+                   <div class="swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 640px;">
+                       <div class="category-zj-hide"><a href="${pageContext.request.contextPath }"><img src="${pageContext.request.contextPath }/statics/images/${i.image}" class="category-zj-thumb"></a></div>
+                       <div class="category-zj-hide01">
+                           <h1>徐桂凤&nbsp;</h1>
+                           <h3>烟台丽华妇科医院院长</h3>
+                           <p><b>擅长</b>擅长：各类妇科疑难杂症、产科疾病的诊断和治疗及中西医结合加宫</p>
+                       </div>
+                       <div class="category-zj-hide2"><a href="/swt/">在线咨询专家</a></div>
+                   </div>
+                </c:forEach>
+               </div>
+               <div class="swiper-pagination swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
+           </div>
+           <script language="javascript">
+               var mySwiper = new Swiper('.swiper-container1',{
+                   pagination : '.swiper-pagination',
+                   loop:true
+               })
+           </script>
+
     </div>
     <div class="news"><a href="team.html" class="news-btn">点击查看更多专家</a></div>
 </div>
